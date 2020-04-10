@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Dehong Fang（方德洪）
+**ahdhfang AT hotmail.com**
+I am a person that lost the chance to study the master's program due to rejected visa.
 
-You can use the [editor on GitHub](https://github.com/Yulan-Fang/Yulan-Fang.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Publications
+None
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Yulan-Fang/Yulan-Fang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## History
+2019 National English Competition for College Students(NECCS), Jilin Province Outstanding Winner
+2018 "FLTRP CUP" English Writing Contest, Provincial First Prize
+2018 Jilin Province University Robot Contest, Provincial First Prize
+2018 Interdisciplinary Contest In Modeling, Honorable Mention
+2017 "FLTRP CUP" English Reading Contest, Provincial First Prize
+2017 China Undergraduate Mathematical Contest in Modeling, National Second Prize and Provincial First Prize
+2016 "FLTRP CUP" English Reading Contest, Provincial First Prize
+2016 China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize
+2016 Big Writing Event Under One Topic, National The Excellent Composition Award
+2015 Model Student of Academic Records
+2015 Merit Student
