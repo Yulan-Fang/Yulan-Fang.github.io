@@ -1,8 +1,8 @@
 ## Dehong Fang（方德洪）
 **ahdhfang AT hotmail.com**
 
-I am a person that lost the chance to study the master's program due to rejected visa.
-
+I am a person that lost the chance to study the master's program with full schalorship due to rejected visa.
+My interested field of research includes lattice Boltzmann method, immersed boundary method and their applications.
 ## Publications
 None
 
