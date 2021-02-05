@@ -7,6 +7,8 @@ My interested field of research includes lattice Boltzmann method, immersed boun
 None
 
 ## History
+2020 Mechanical Engineering Graduate Tuition Waiver award
+
 2019 National English Competition for College Students(NECCS), Outstanding Winner From Jilin Province 
 
 2018 "FLTRP CUP" English Writing Contest, Provincial First Prize
