@@ -28,74 +28,12 @@ redirect_from:
     <p>My fields of research include multi-physics simulation, fluid-solid interaction, reduced order model, and data analysis, applications of machine learning on engineering problems.</p>
 </div>
 
-
-
-  
-<h2>Selected Projects</h2>
-
-<!-- Project 1 -->
-<div class="project">
-    <h3>Fluid-solid Coupling by Neural Network</h3>
-    <div class="project-description">
-        <p>Complex physical process can be learned and replaced by machine learning model. Use the IB-PINN machine learning model to conduct fluid–solid coupling is shown to be fast, reliable and accurate.</p>
-        <!-- Add preview images here -->
-    </div>
-</div>
-
-<!-- Project 2 -->
-<div class="project">
-    <h3>Wall Shear Stress Analysis for Blood Vessel's Inner Surface</h3>
-    <div class="project-description">
-        <p>Short description of the project goes here.</p>
-        <!-- Add preview images here -->
-    </div>
-</div>
-
-<!-- Project 3 -->
-<div class="project">
-    <h3>Dynamic Mode Decomposition on Covid-19 Data</h3>
-    <div class="project-description">
-        <p>Short description of the project goes here.</p>
-        <!-- Add preview images here -->
-    </div>
-</div>
-
-<!-- Project 4 -->
-<div class="project">
-    <h3>Investigation of Hydrodynamics of Fish Swimming</h3>
-    <div class="project-description">
-        <p>The fish swimming is achieved by immersed boundary-lattice Boltzmann method based on opensource software Palabos, and dynamic mode decomposition is applied on the simulation results.</p>
-        <!-- Add preview images here -->
-        <img src="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/showcaseimages/title_fish1.png?raw=true" alt="Fish Image 1">
-        <img src="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/showcaseimages/title_fish2.png?raw=true" alt="Fish Image 2">
-    </div>
-</div>
-
-<script>
-    // Add click event to toggle project descriptions
-    document.addEventListener('DOMContentLoaded', function () {
-        const projectElements = document.querySelectorAll('.project');
-
-        projectElements.forEach((project) => {
-            const title = project.querySelector('h3');
-            const description = project.querySelector('.project-description');
-
-            title.addEventListener('click', () => {
-                description.style.display = description.style.display === 'none' ? 'block' : 'none';
-            });
-        });
-    });
-</script>
-</body>
-
-
 <h1>Selected Projects</h1>
 <ul>
   {% for post in site.portfolio %}
     {% include archive-single.html %}
   {% endfor %}
 </ul>
-
 
 </html>
 
