@@ -132,13 +132,21 @@ redirect_from:
   <li>2nd International Conference on Fluid Dynamics and Computational Science (FDCS 2023)</li>
 </ul>
 
+
 <h1>Awards</h1>
 <ul>
-  <li>Mechanical Engineering Graduate Tuition Waiver Award, 2020</li>
-  <li>National English Competition for College Students (NECCS), Outstanding Winner, 2019
-    <a href="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true">
-      <img src="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true" alt="Award" />
-    </a>
+  <li>
+    Mechanical Engineering Graduate Tuition Waiver Award, 2020
+  </li>
+  <li>
+    National English Competition for College Students (NECCS), Outstanding Winner, 2019
+    <div class="award-images">
+      <img class="small-image" src="URL_TO_SMALL_AWARD_IMAGE_2019" alt="Small Award Image 2019">
+      <img class="large-image" src="URL_TO_LARGE_AWARD_IMAGE_2019" alt="Large Award Image 2019">
+    </div>
+  </li>
+  <li>
+    "FLTRP CUP" English Writing Contest, Provincial First Prize, 2018
   </li>
   <li>"FLTRP CUP" English Writing Contest, Provincial First Prize, 2018</li>
   <li>Jilin Province University Robot Contest, Provincial First Prize, 2018</li>
@@ -146,4 +154,55 @@ redirect_from:
   <li>"FLTRP CUP" English Reading Contest, Provincial First Prize, 2017</li>
   <li>China Undergraduate Mathematical Contest in Modeling, National Second Prize & Provincial First Prize, 2017</li>
   <li>College Student Innovation and Entrepreneurship Training Program, Second prize, 2017</li>
-  <li>"FL
+  <li>"FLTRP CUP" English Reading Contest, Provincial First Prize, 2016</li>
+  <li>China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize, 2016</li>
+  <li>Big Writing Event Under One Topic, National The Excellent Composition Award, 2016</li>
+  <li>Model Student of Academic Records, 2015</li>
+  <li>Merit Student, 2015</li>
+</ul>
+
+<style>
+.award-images {
+  display: inline-block;
+  position: relative;
+}
+
+.small-image,
+.large-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 50px; /* Adjust the width as needed for your small images */
+  height: auto;
+}
+
+li:hover .small-image {
+  display: block;
+}
+
+li:hover .large-image {
+  display: none;
+}
+
+li:active .large-image {
+  display: block;
+}
+</style>
+
+<script>
+const awardItems = document.querySelectorAll('.award-images');
+
+awardItems.forEach((item) => {
+  item.addEventListener('mouseenter', () => {
+    item.querySelector('.small-image').style.display = 'none';
+    item.querySelector('.large-image').style.display = 'block';
+  });
+
+  item.addEventListener('mouseleave', () => {
+    item.querySelector('.small-image').style.display = 'block';
+    item.querySelector('.large-image').style.display = 'none';
+  });
+});
+</script>
+
