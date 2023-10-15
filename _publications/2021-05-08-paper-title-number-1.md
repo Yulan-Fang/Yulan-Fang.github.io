@@ -8,6 +8,3 @@ venue: 'Processes'
 paperurl: 'https://www.mdpi.com/2227-9717/9/5/816'
 citation: 'Chen, Yue, et al. "Vortex Suppression and Flow Pattern Analysis of a Hydrofoil with Parallel Grooves." Processes 9.5 (2021): 816.'
 ---
-
-
-Recommended citation: Chen, Yue, et al. "Vortex Suppression and Flow Pattern Analysis of a Hydrofoil with Parallel Grooves." Processes 9.5 (2021): 816.
