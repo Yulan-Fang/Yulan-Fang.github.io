@@ -82,7 +82,17 @@ redirect_from:
         });
     });
 </script>
-
 </body>
+
+
+<h1>profolio</h1>
+<ul>
+  {% for post in site.portfolio %}
+    {% include archive-single-profolio.html %}
+  {% endfor %}
+</ul>
+
+
 </html>
+
 
