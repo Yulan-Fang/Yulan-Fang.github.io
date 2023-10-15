@@ -14,24 +14,13 @@ redirect_from:
 </head>
 <body>
 <div>
-    <h1>About me</h1>
     <p>My fields of research include multi-physics simulation, fluid-solid interaction, reduced order model, and data analysis, applications of machine learning on engineering problems.</p>
 </div>
-
 <h2>Selected Projects</h2>
-
-<h3>Fluid-solid Coupling by Neural Network</h3>
-
-<h3>Wall Shear Stress Analysis for Blood Vessel's Inner Surface</h3>
-
-<h3>Dynamic Mode Decomposition on Covid-19 Data</h3>
-
-<h3>Investigation of Hydrodynamics of Fish Swimming</h3>
 </body>
-
-
-
-
-  
 </html>
 
+{% include base_path %}
+{% for post in site.showcase %}
+  {% include archive-single.html %}
+{% endfor %}
