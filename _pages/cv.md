@@ -44,7 +44,7 @@ Supervisor: Jifu Tan
 
 Research Student
 Feb. 2021 - Aug. 2021
-Tqinghua University at Beijing, China
+Tsinghua University at Beijing, China
 Supervisor: Zhenwei Huang
 * Duties included: 
   * Built fish mesh by fitting functions of body shape from MIT’s RoboTuna.
