@@ -88,7 +88,7 @@ Community Service
 Peer reviews for conferences and journals
   * Ocean Engineering
   * Journal of Marine Science and Technology
-  * J. Fluids Eng. Trans. ASME
+  * Journal of Fluids Engineering
   * International Journal of Computational Fluid Dynamics
   * Defect and Diffusion Forum
   * Journal of Applied Fluid Mechanics
