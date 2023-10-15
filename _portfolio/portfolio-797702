@@ -1,0 +1,20 @@
+---
+title: "Wave Interactions with Floating Structures Include Dragged Moorings"
+excerpt: "The floating structures on the water surface under the impact of waves can be studied by numerical simulations, and the stability of the structures can be studied by roll, pitch, yaw, etc."
+collection: portfolio
+---
+<html>
+    <section>
+        <p> In this study, the floating structure is placed on the water surface, and four cables and connected to the structure. The wave is periodically generated, and the motion data of the structure is recorded for the investigation.  </p>
+        <img src="/showcaseimages/wavestructure.gif" alt="Simulation GIF" width="1024" height="768">
+    </section>
+    <section>
+        <h2>Publication</h2>
+        <ul>
+            <li>
+                In preparation.
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
