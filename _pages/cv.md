@@ -17,6 +17,7 @@ Education
 Work Experience
 ======
 **Research Intern**
+
 Aug. 2022 – Current 
 
 UII America, Inc. at Burlington, MA, USA
@@ -33,6 +34,7 @@ Perceptron (MLP) model.
 
 
 **Graduate Assistant**
+
 Sept. 2021 - Jun. 2022
 
 Northern Illinois University at Dekalb, IL, USA
@@ -49,6 +51,7 @@ Supervisor: Jifu Tan
  
 
 **Research Student**
+
 Feb. 2021 - Aug. 2021
 
 Tsinghua University at Beijing, China
