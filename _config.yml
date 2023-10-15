@@ -85,7 +85,7 @@ author:
   bio              : "Focused on multi-physics computational research."
   location         : "Boston, MA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=z1YTxOgAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/D-Fang"
