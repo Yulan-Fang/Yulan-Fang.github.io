@@ -118,7 +118,7 @@ Awards
 * Jilin Province University Robot Contest, Provincial First Prize, 2018
 * Interdisciplinary Contest In Modeling, Honorable Mention, 2018
 * "FLTRP CUP" English Reading Contest, Provincial First Prize, 2017
-* China Undergraduate Mathematical Contest in Modeling, National Second Prize $\&$ Provincial First Prize, 2017
+* China Undergraduate Mathematical Contest in Modeling, National Second Prize & Provincial First Prize, 2017
 * College Student Innovation and Entrepreneurship Training Program, Second prize, 2017
 * "FLTRP CUP" English Reading Contest, Provincial First Prize, 2016
 * China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize, 2016.
