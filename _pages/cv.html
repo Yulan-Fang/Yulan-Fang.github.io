@@ -141,8 +141,9 @@ redirect_from:
   <li>
     National English Competition for College Students (NECCS), Outstanding Winner, 2019
     <div class="award-button">
-      <button class="small-image-button" data-small="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true" data-large="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true">Show</button>
+      <button class="show-image-button" data-image="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true">Show</button>
     </div>
+    <img class="large-image" src="" alt="Large Award Image" />
   </li>
 
   <li>
@@ -155,8 +156,9 @@ redirect_from:
   <li>
     China Undergraduate Mathematical Contest in Modeling, National Second Prize & Provincial First Prize, 2017
     <div class="award-button">
-      <button class="small-image-button" data-image="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/17MCM.png?raw=true">Show</button>
-   </div>
+      <button class="show-image-button" data-image="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/17MCM.png?raw=true">Show</button>
+    </div>
+    <img class="large-image" src="" alt="Large Award Image" />
   </li>
   <li>College Student Innovation and Entrepreneurship Training Program, Second prize, 2017</li>
   <li>"FLTRP CUP" English Reading Contest, Provincial First Prize, 2016</li>
@@ -196,35 +198,13 @@ redirect_from:
 </style>
 
 <script>
-const smallImageButtons = document.querySelectorAll('.small-image-button');
+const showImageButtons = document.querySelectorAll('.show-image-button');
+const largeImages = document.querySelectorAll('.large-image');
 
-smallImageButtons.forEach(button => {
-  const imageSrc = button.getAttribute('data-image');
-
-  button.addEventListener('mouseenter', () => {
-    const imageContainer = button.parentElement.nextElementSibling;
-    const smallImage = imageContainer.querySelector('.small-image');
-    smallImage.src = imageSrc;
-    smallImage.style.display = 'block';
-  });
-
+showImageButtons.forEach((button, index) => {
   button.addEventListener('click', () => {
-    const imageContainer = button.parentElement.nextElementSibling;
-    const largeImage = imageContainer.querySelector('.large-image');
-    largeImage.src = imageSrc;
-    smallImage.style.display = 'none';
-    largeImage.style.display = 'block';
-  });
-
-  button.parentElement.addEventListener('mouseleave', () => {
-    const imageContainer = button.parentElement.nextElementSibling;
-    imageContainer.querySelector('.small-image').style.display = 'none';
-    imageContainer.querySelector('.large-image').style.display = 'none';
-  });
-
-  button.parentElement.nextElementSibling.addEventListener('mouseenter', () => {
-    const imageContainer = button.parentElement.nextElementSibling;
-    imageContainer.querySelector('.small-image').style.display = 'block';
+    largeImages[index].src = button.getAttribute('data-image');
+    largeImages[index].style.display = 'block';
   });
 });
 </script>
