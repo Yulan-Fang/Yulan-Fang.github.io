@@ -17,9 +17,13 @@ Education
 Work Experience
 ======
 Research Intern
+
 Aug. 2022 – Current 
+
 UII America, Inc. at Burlington, MA, USA
+
 Supervisor: Shanhui Sun
+
 * Duties included: 
   * Mesh operations based on segmented CT coronary data.
   * Python pipelines of Computational Fluid Dynamics (CFD) simulations on
@@ -30,9 +34,13 @@ Perceptron (MLP) model.
 
 
 Graduate Assistant
+
 Sept. 2021 - Jun. 2022
+
 Northern Illinois University at Dekalb, IL, USA
+
 Supervisor: Jifu Tan
+
 * Course assisting: 
   * Assisted the supervisor in preparing, printing, and arranging the exam problems.
   * Took recitation courses twice weekly to help students solve their course-related questions (Course name: Engineering Mechanics).
@@ -43,9 +51,13 @@ Supervisor: Jifu Tan
  
 
 Research Student
+
 Feb. 2021 - Aug. 2021
+
 Tsinghua University at Beijing, China
+
 Supervisor: Zhenwei Huang
+
 * Duties included: 
   * Built fish mesh by fitting functions of body shape from MIT’s RoboTuna.
   * Conducted fish swimming simulations by immersed boundary-lattice Boltzmann method based on open-source software Palabos.
@@ -85,7 +97,7 @@ Publications
   
 Community Service
 ======
-Peer reviews for conferences and journals
+Peer reviews for conferences and journals.
   * Ocean Engineering
   * Journal of Marine Science and Technology
   * Journal of Fluids Engineering
