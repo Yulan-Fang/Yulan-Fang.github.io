@@ -135,7 +135,9 @@ redirect_from:
 
 <h1>Awards</h1>
 <ul>
-  <li>Mechanical Engineering Graduate Tuition Waiver Award, 2020</li>
+  <li>
+  Mechanical Engineering Graduate Tuition Waiver Award, 2020
+  </li>
   <li>
     National English Competition for College Students (NECCS), Outstanding Winner, 2019
     <div class="award-button">
@@ -150,7 +152,12 @@ redirect_from:
   <li>Jilin Province University Robot Contest, Provincial First Prize, 2018</li>
   <li>Interdisciplinary Contest In Modeling, Honorable Mention, 2018</li>
   <li>"FLTRP CUP" English Reading Contest, Provincial First Prize, 2017</li>
-  <li>China Undergraduate Mathematical Contest in Modeling, National Second Prize & Provincial First Prize, 2017</li>
+  <li>
+    China Undergraduate Mathematical Contest in Modeling, National Second Prize & Provincial First Prize, 2017
+    <div class="award-button">
+      <button class="small-image-button" data-image="https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/17MCM.png?raw=true">Show</button>
+   </div>
+  </li>
   <li>College Student Innovation and Entrepreneurship Training Program, Second prize, 2017</li>
   <li>"FLTRP CUP" English Reading Contest, Provincial First Prize, 2016</li>
   <li>China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize, 2016</li>
@@ -163,7 +170,6 @@ redirect_from:
 <style>
 .award-button {
   display: inline-block;
-  position: relative;
 }
 
 .small-image-button {
@@ -179,19 +185,8 @@ redirect_from:
 .small-image,
 .large-image {
   display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
   width: 50px; /* Adjust the width as needed for your small images */
   height: auto;
-}
-
-li .award-button:hover .small-image {
-  display: block;
-}
-
-li .award-button .small-image-button:hover + .large-image {
-  display: block;
 }
 
 .large-image {
@@ -201,21 +196,35 @@ li .award-button .small-image-button:hover + .large-image {
 </style>
 
 <script>
-const awardButtons = document.querySelectorAll('.small-image-button');
+const smallImageButtons = document.querySelectorAll('.small-image-button');
 
-awardButtons.forEach((button) => {
-  const smallImage = button.parentElement.querySelector('.small-image');
-  const largeImage = button.parentElement.querySelector('.large-image');
+smallImageButtons.forEach(button => {
+  const imageSrc = button.getAttribute('data-image');
+
+  button.addEventListener('mouseenter', () => {
+    const imageContainer = button.parentElement.nextElementSibling;
+    const smallImage = imageContainer.querySelector('.small-image');
+    smallImage.src = imageSrc;
+    smallImage.style.display = 'block';
+  });
 
   button.addEventListener('click', () => {
+    const imageContainer = button.parentElement.nextElementSibling;
+    const largeImage = imageContainer.querySelector('.large-image');
+    largeImage.src = imageSrc;
     smallImage.style.display = 'none';
     largeImage.style.display = 'block';
   });
 
   button.parentElement.addEventListener('mouseleave', () => {
-    smallImage.style.display = 'block';
-    largeImage.style.display = 'none';
+    const imageContainer = button.parentElement.nextElementSibling;
+    imageContainer.querySelector('.small-image').style.display = 'none';
+    imageContainer.querySelector('.large-image').style.display = 'none';
+  });
+
+  button.parentElement.nextElementSibling.addEventListener('mouseenter', () => {
+    const imageContainer = button.parentElement.nextElementSibling;
+    imageContainer.querySelector('.small-image').style.display = 'block';
   });
 });
 </script>
-
