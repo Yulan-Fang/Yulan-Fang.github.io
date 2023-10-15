@@ -113,7 +113,7 @@ Peer reviews for conferences and journals.
 Awards
 ======
 * Mechanical Engineering Graduate Tuition Waiver Award, 2020
-* National English Competition for College Students (NECCS), Outstanding Winner, 2019
+* National English Competition for College Students (NECCS), Outstanding Winner, 2019 [![Award](https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true)](https://github.com/Yulan-Fang/Yulan-Fang.github.io/blob/master/images/19neccs.png?raw=true)
 * "FLTRP CUP" English Writing Contest, Provincial First Prize, 2018
 * Jilin Province University Robot Contest, Provincial First Prize, 2018
 * Interdisciplinary Contest In Modeling, Honorable Mention, 2018
@@ -121,7 +121,7 @@ Awards
 * China Undergraduate Mathematical Contest in Modeling, National Second Prize & Provincial First Prize, 2017
 * College Student Innovation and Entrepreneurship Training Program, Second prize, 2017
 * "FLTRP CUP" English Reading Contest, Provincial First Prize, 2016
-* China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize, 2016.
-* Big Writing Event Under One Topic, National The Excellent Composition Award, 2016.
-* Model Student of Academic Records, 2015.
-* Merit Student, 2015.
+* China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize, 2016
+* Big Writing Event Under One Topic, National The Excellent Composition Award, 2016
+* Model Student of Academic Records, 2015
+* Merit Student, 2015
