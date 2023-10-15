@@ -109,3 +109,19 @@ Peer reviews for conferences and journals.
   * 7th International Conference on Fluid Mechanics and Industrial Applications (FMIA 2023)
   * 7th International Conference on Data Mining, Communications and Information Technology (DMCIT 2023)
   * 2nd International Conference on Fluid Dynamics and Computational Science (FDCS 2023)
+
+Awards
+======
+* Mechanical Engineering Graduate Tuition Waiver Award, 2020
+* National English Competition for College Students (NECCS), Outstanding Winner, 2019
+* "FLTRP CUP" English Writing Contest, Provincial First Prize, 2018
+* Jilin Province University Robot Contest, Provincial First Prize, 2018
+* Interdisciplinary Contest In Modeling, Honorable Mention, 2018
+* "FLTRP CUP" English Reading Contest, Provincial First Prize, 2017
+* China Undergraduate Mathematical Contest in Modeling, National Second Prize $\&$ Provincial First Prize, 2017
+* College Student Innovation and Entrepreneurship Training Program, Second prize, 2017
+* "FLTRP CUP" English Reading Contest, Provincial First Prize, 2016
+* China Undergraduate Mathematical Contest in Modeling, Provincial Second Prize, 2016.
+* Big Writing Event Under One Topic, National The Excellent Composition Award, 2016.
+* Model Student of Academic Records, 2015.
+* Merit Student, 2015.
