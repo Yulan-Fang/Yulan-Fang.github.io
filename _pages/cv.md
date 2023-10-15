@@ -16,8 +16,7 @@ Education
 
 Work Experience
 ======
-Research Intern
-
+**Research Intern**
 Aug. 2022 – Current 
 
 UII America, Inc. at Burlington, MA, USA
@@ -33,8 +32,7 @@ Perceptron (MLP) model.
   * Heart simulation and coronary artery projection.
 
 
-Graduate Assistant
-
+**Graduate Assistant**
 Sept. 2021 - Jun. 2022
 
 Northern Illinois University at Dekalb, IL, USA
@@ -50,8 +48,7 @@ Supervisor: Jifu Tan
   * Proposed a fluid-solid coupling model by immersed boundary-physics informed neural network, compared its efficiency to the traditional method, and validated its accuracy.
  
 
-Research Student
-
+**Research Student**
 Feb. 2021 - Aug. 2021
 
 Tsinghua University at Beijing, China
