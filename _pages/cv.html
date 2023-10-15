@@ -169,12 +169,13 @@ redirect_from:
 </ul>
 
 
+
 <style>
 .award-button {
   display: inline-block;
 }
 
-.small-image-button {
+.show-image-button {
   cursor: pointer;
   background: #0074d9;
   color: #fff;
@@ -184,14 +185,8 @@ redirect_from:
   margin-left: 10px;
 }
 
-.small-image,
 .large-image {
   display: none;
-  width: 50px; /* Adjust the width as needed for your small images */
-  height: auto;
-}
-
-.large-image {
   width: 200px; /* Adjust the width as needed for your large images */
   height: auto;
 }
@@ -202,9 +197,18 @@ const showImageButtons = document.querySelectorAll('.show-image-button');
 const largeImages = document.querySelectorAll('.large-image');
 
 showImageButtons.forEach((button, index) => {
+  let isImageVisible = false;
+
   button.addEventListener('click', () => {
-    largeImages[index].src = button.getAttribute('data-image');
-    largeImages[index].style.display = 'block';
+    if (isImageVisible) {
+      largeImages[index].style.display = 'none';
+      button.textContent = 'Show';
+    } else {
+      largeImages[index].src = button.getAttribute('data-image');
+      largeImages[index].style.display = 'block';
+      button.textContent = 'Hide';
+    }
+    isImageVisible = !isImageVisible;
   });
 });
 </script>
