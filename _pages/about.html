@@ -67,20 +67,22 @@ redirect_from:
     </div>
 </div>
 
-
 <script>
     // Add click event to toggle project descriptions
-    const projectElements = document.querySelectorAll('.project');
+    document.addEventListener('DOMContentLoaded', function () {
+        const projectElements = document.querySelectorAll('.project');
 
-    projectElements.forEach((project) => {
-        const title = project.querySelector('h3');
-        const description = project.querySelector('.project-description');
+        projectElements.forEach((project) => {
+            const title = project.querySelector('h3');
+            const description = project.querySelector('.project-description');
 
-        title.addEventListener('click', () => {
-            description.style.display = description.style.display === 'none' ? 'block' : 'none';
+            title.addEventListener('click', () => {
+                description.style.display = description.style.display === 'none' ? 'block' : 'none';
+            });
         });
     });
 </script>
+
 </body>
 </html>
 
