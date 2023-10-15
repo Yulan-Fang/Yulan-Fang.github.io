@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dehong's Personal Website"
+title                    : "Main Site"
 title_separator          : "-"
 name                     : &name "Dehong Fang"
 description              : &description "Personal Website"
